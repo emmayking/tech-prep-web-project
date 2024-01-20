@@ -1,0 +1,65 @@
+/* styles.css */
+
+header {
+    background-color: #6cbe4c;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:azure;
+    color: #333;
+}
+
+h1 {
+    color:#1d4286;
+    margin: 10px;
+    padding: 10px;
+    font-size: 40px;
+    font-family: Tahoma, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.page {
+        margin: 20px;
+        padding: 10px;
+        color: #0e1517;
+        font-family: Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        display: inline-block;
+       
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.wrapper {
+    min-height: 100vh; /* Set minimum height to full height of the viewport */
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1; /* Allow the content to grow and take up remaining space */
+    padding: 20px;
+}
+
+footer {
+    background-color: #6cbe4c;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    bottom: 0%;
+}
+
