@@ -1,4 +1,3 @@
-/* styles.css */
 
 header {
     background-color: #6cbe4c;
@@ -8,7 +7,7 @@ header {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Tahoma, sans-serif;
     background-color:azure;
     color: #333;
 }
@@ -19,7 +18,23 @@ h1 {
     padding: 10px;
     font-size: 40px;
     font-family: Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
 }
+
+p {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding: 9px;
+    text-align: center;
+}
+
+h2 {
+    margin: 10px;
+    padding-top: 6px;
+}
+
 
 .container {
     width: 80%;
@@ -33,9 +48,18 @@ h1 {
         font-family: Tahoma, sans-serif;
         font-weight: bold;
         font-size: 20px;
-        display: inline-block;
+        display: flex;
+        justify-content: center;
+        text-align: center;
        
 }
+
+.pages {
+     display: flex;
+     justify-content: center;
+     text-align: center;
+}
+
 
 section {
     max-width: 800px;
@@ -44,13 +68,13 @@ section {
 }
 
 .wrapper {
-    min-height: 100vh; /* Set minimum height to full height of the viewport */
+    min-height: 100vh; 
     display: flex;
     flex-direction: column;
 }
 
 .content {
-    flex: 1; /* Allow the content to grow and take up remaining space */
+    flex: 1;
     padding: 20px;
 }
 
@@ -63,3 +87,46 @@ footer {
     bottom: 0%;
 }
 
+.email {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  .phone {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  .skiing {
+    text-align: center;
+    padding-top: 10px;
+    margin: 10px;
+  }
+
+  .camping {
+    text-align: center;
+    padding-top: 10px;
+    margin: 10px;
+  }
+
+  .rv {
+    text-align: center;
+    padding-top: 10px;
+    margin: 10px;
+  }
+
+  .hiking {
+    text-align: center;
+    padding-top: 10px;
+    margin: 10px;
+  }
+
+  .serviceslist {
+ 
+  display: flex;
+  justify-content: center;
+
+
+  }
